@@ -1,5 +1,5 @@
 let menuIcon = document.querySelector('#menu-icon');
-let navBar = document.querySelector('.navbar');
+let navBar = document.querySelector('.navbar ul');
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');

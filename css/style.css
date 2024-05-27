@@ -69,10 +69,15 @@ body {
   text-shadow: 0 0 25px var(--main-color);
 }
 
+.navbar ul {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+}
+
 .navbar a {
   font-size: 1.8rem;
   color: var(--text-color);
-  margin-left: 4rem;
   font-weight: 500;
   transition: 0.3s ease;
   border-bottom: 3px solid transparent;
@@ -141,7 +146,7 @@ span {
 }
 
 .home-img img:hover {
-  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
+  box-shadow: 0 0 25px var (--main-color), 0 0 50px var (--main-color),
     0 0 100px var(--main-color);
 }
 
@@ -395,16 +400,6 @@ span {
   font-weight: 300;
   line-height: 20px;
   margin-bottom: 10px;
-  /* text-wrap: balance; */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
-}
-
-::-webkit-scrollbar-track {
-  background-color: var(--bg-color);
-  width: 50px;
 }
 
 /* Aca terminan los estilos de la formación */
@@ -583,6 +578,7 @@ span {
   margin: 1rem;
   resize: none;
 }
+
 .footer {
   position: relative;
   bottom: 0;
